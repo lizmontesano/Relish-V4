@@ -1,0 +1,17 @@
+{
+    "name": "Relish - Clothing Resale Assistant",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An AI powered assistant to create clothing resale listings on Depop. Simply 'copy' the URL of the product and 'paste' it into a Depop listing!",
+    "permissions": [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "1": "icon.png"
+    }
+}
